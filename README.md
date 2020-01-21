@@ -4,7 +4,7 @@
 
 ## Sources To Cite
 [EgoHands Dataset](http://vision.soic.indiana.edu/projects/egohands/) <br>
-[Base Hand Tracking GitHub](https://github.com/victordibia/handtracking)
+[Base Hand Tracking GitHub](https://github.com/victordibia/handtracking) <br>
 [TFT Generating Script](https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py)
 
 
