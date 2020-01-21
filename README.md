@@ -16,6 +16,9 @@ Installed for cleaning dataset <br>
 *  scipy
 *  six
 *  cv2 (opencv-python)
+*  matplotlib
+*  pipenv
+*  jupyter
 
 ### Good References
 *  https://pythonprogramming.net/creating-tfrecord-files-tensorflow-object-detection-api-tutorial/
