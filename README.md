@@ -17,3 +17,7 @@ Installed for cleaning dataset <br>
 
 ### Good References
 *  https://pythonprogramming.net/creating-tfrecord-files-tensorflow-object-detection-api-tutorial/
+
+## Things To Look In To
+[Signall Sign Language Translator](https://signall.us/)
+[Signall Article](https://techcrunch.com/2018/02/14/signall-is-slowly-but-surely-building-a-sign-language-translation-platform/)
