@@ -15,7 +15,7 @@ import csv
 
 
 def save_csv(csv_path, csv_content):
-    with open(csv_path, 'w') as csvfile:
+    with open(csv_path, 'w', newline='') as csvfile:
         wr = csv.writer(csvfile)
         for i in range(len(csv_content)):
             wr.writerow(csv_content[i])
