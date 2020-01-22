@@ -26,3 +26,5 @@ Installed for cleaning dataset <br>
 ## Things To Look In To
 [Signall Sign Language Translator](https://signall.us/)  <br>
 [Signall Article](https://techcrunch.com/2018/02/14/signall-is-slowly-but-surely-building-a-sign-language-translation-platform/)
+
+[MUST LOOK AT](https://github.com/google/mediapipe/blob/master/mediapipe/docs/hand_tracking_mobile_gpu.md)
