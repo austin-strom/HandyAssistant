@@ -11,6 +11,8 @@ import argparse
 frame_processed = 0
 score_thresh = 0.2
 
+displayed = False
+
 # Create a worker thread that loads graph and
 # does detection on images in an input queue and puts it on an output queue
 
@@ -26,24 +28,30 @@ def worker(input_q, output_q, cap_params, frame_processed):
             # Actual detection. Variable boxes contains the bounding box cordinates for hands detected,
             # while scores contains the confidence for each of these boxes.
             # Hint: If len(boxes) > 1 , you may assume you have found atleast one hand (within your score threshold)
-
+           
             boxes, scores = detector_utils.detect_objects(
                 frame, detection_graph, sess)
             # draw bounding boxes
-            boxes = detector_utils.draw_box_on_image(
+            boxes_for_crop = detector_utils.draw_box_on_image(
                 cap_params['num_hands_detect'], cap_params["score_thresh"],
                 scores, boxes, cap_params['im_width'], cap_params['im_height'],
                 frame)
+            print("Boxes: " + str(boxes_for_crop))
             # add frame annotated with bounding box to queue
-            output_q.put(frame)
+            # output_q.put(frame)
             frame_processed += 1
+
+            # TODO: Add cropping frame
+            if len(boxes_for_crop) >= 1:
+                output_q.put(frame[boxes_for_crop[0][0][0]:boxes_for_crop[0][1][0], boxes_for_crop[0][0][1]:boxes_for_crop[0][1][1]]) 
         else:
             output_q.put(frame)
     sess.close()
 
 
 if __name__ == '__main__':
-
+    
+    
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '-src',
