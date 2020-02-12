@@ -10,6 +10,7 @@
 
 ## Developer Notes
 TODO: Write script to install all or use Pipfile <br>
+For GPU support install CUDA and CUDNN packages. Look for compatibility using Tensorflow Docs <br>
 
 ### Installed Packages
 Installed for cleaning dataset <br>
