@@ -1,6 +1,6 @@
 # Handy Assistant
 
-
+## Note: This README is currently outdated and is in the process of being updated.
 
 ## Sources To Cite
 [EgoHands Dataset](http://vision.soic.indiana.edu/projects/egohands/) <br>
@@ -28,5 +28,5 @@ Installed for cleaning dataset <br>
 [Signall Sign Language Translator](https://signall.us/)  <br>
 [Signall Article](https://techcrunch.com/2018/02/14/signall-is-slowly-but-surely-building-a-sign-language-translation-platform/)
 
-[MUST LOOK AT](https://github.com/google/mediapipe/blob/master/mediapipe/docs/hand_tracking_mobile_gpu.md)
-[THIS IS IT](https://techcrunch.com/2019/08/19/this-hand-tracking-algorithm-could-lead-to-sign-language-recognition/)
+[Mediapipe GitHub](https://github.com/google/mediapipe/blob/master/mediapipe/docs/hand_tracking_mobile_gpu.md) 
+[Mediapipe Article](https://techcrunch.com/2019/08/19/this-hand-tracking-algorithm-could-lead-to-sign-language-recognition/)
